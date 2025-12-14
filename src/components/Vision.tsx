@@ -35,12 +35,31 @@ const Vision = () => {
               
               <h3 className="font-serif text-2xl font-bold mb-4">Our Vision</h3>
               
-              <p className="text-primary-foreground/90 text-lg leading-relaxed">
-                To be the leading network empowering Romanian women in life sciences 
-                across Switzerland, where every member has the support, resources, 
-                and connections to achieve their full potential and make lasting 
-                contributions to scientific advancement.
+              <p className="text-primary-foreground/90 text-lg leading-relaxed mb-4">
+                Să construim un spațiu care:
               </p>
+              <ul className="space-y-2 text-primary-foreground/90">
+                <li className="flex items-start gap-2">
+                  <span className="text-primary-foreground">•</span>
+                  <span>Conectează femei românce din toate domeniile life sciences</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary-foreground">•</span>
+                  <span>Sprijină creșterea profesională și personală</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary-foreground">•</span>
+                  <span>Facilitează colaborări, mentorat și vizibilitate</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary-foreground">•</span>
+                  <span>Oferă inspirație, povești și suport reciproc</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary-foreground">•</span>
+                  <span>Contribuie la reprezentarea și integrarea profesională a femeilor românce în Elveția</span>
+                </li>
+              </ul>
             </div>
           </div>
 
