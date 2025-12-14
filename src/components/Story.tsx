@@ -52,15 +52,15 @@ const Story = () => {
             <div className="flex gap-8 mt-8 pt-8 border-t border-border">
               <div>
                 <p className="font-serif text-3xl font-bold text-primary">30+</p>
-                <p className="text-sm text-muted-foreground">Active Members</p>
+                <p className="text-sm text-muted-foreground">Membre active</p>
               </div>
               <div>
-                <p className="font-serif text-3xl font-bold text-primary">1</p>
-                <p className="text-sm text-muted-foreground">Years Strong</p>
+                <p className="font-serif text-3xl font-bold text-primary">3</p>
+                <p className="text-sm text-muted-foreground"> Luni de activitate</p>
               </div>
               <div>
                 <p className="font-serif text-3xl font-bold text-primary">4</p>
-                <p className="text-sm text-muted-foreground">Swiss Cities</p>
+                <p className="text-sm text-muted-foreground">Orașe din Elveția</p>
               </div>
             </div>
           </div>

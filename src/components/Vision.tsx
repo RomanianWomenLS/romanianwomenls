@@ -32,7 +32,7 @@ const Vision = () => {
                 <Eye className="w-7 h-7" />
               </div>
               
-              <h3 className="font-serif text-2xl font-bold mb-4">Our Vision</h3>
+              <h3 className="font-serif text-2xl font-bold mb-4">Viziunea noastră</h3>
               
               <p className="text-primary-foreground/90 text-lg leading-relaxed">
                 Să devenim principala rețea a femeilor românce din life sciences din Elveția, recunoscută pentru conexiune, colaborare, mentorat și vizibilitate — un pod real între ecosistemele științifice, antreprenoriale și de politici publice din România și Elveția.

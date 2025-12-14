@@ -6,10 +6,10 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: "#about", label: "About" },
-    { href: "#story", label: "Our Story" },
-    { href: "#members", label: "Members" },
-    { href: "#vision", label: "Vision & Mission" },
+    { href: "#about", label: "Despre noi" },
+    { href: "#story", label: "Povestea Noastră" },
+    { href: "#members", label: "Membre active" },
+    { href: "#vision", label: "Viziune & Misiune" },
     { href: "#contact", label: "Contact" },
   ];
 
