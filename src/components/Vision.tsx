@@ -14,10 +14,10 @@ const Vision = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-sm font-medium text-primary uppercase tracking-wider">
-            Vision & Mission
+            Viziune & Misiune
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-4">
-            Shaping the Future Together
+            Construim conexiuni care contează
           </h2>
         </div>
 
