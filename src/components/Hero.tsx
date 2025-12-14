@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Romanian Women in Life Sciences Switzerland hero background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/85 via-background/70 to-background" />
       </div>
 
       {/* Content */}
