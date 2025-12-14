@@ -8,8 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="font-serif text-xl font-semibold mb-4">RWILS</h3>
             <p className="text-background/70 text-sm">
-              Romanian Women in Life Sciences Switzerland - Empowering women 
-              scientists and advancing research together.
+             Conectăm femei românce din domeniul life sciences și sprijinim colaborarea, creșterea profesională și impactul în ecosistemul elvețian.
             </p>
           </div>
 
