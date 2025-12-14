@@ -2,12 +2,11 @@ import { Eye, Compass, CheckCircle } from "lucide-react";
 
 const Vision = () => {
   const missionPoints = [
-    "Foster meaningful connections among Romanian women scientists in Switzerland",
-    "Provide mentorship and career development opportunities",
-    "Create visibility for Romanian contributions to Swiss life sciences",
-    "Support the next generation of women in STEM",
-    "Bridge academia and industry through networking events",
-    "Celebrate our cultural heritage while advancing scientific excellence",
+    "Conectează femei românce din toate domeniile life sciences",
+    "Sprijină creșterea profesională și personală",
+    "Facilitează colaborări, mentorat și vizibilitate",
+    "Oferă inspirație, povești și suport reciproc",
+    "Contribuie la reprezentarea și integrarea profesională a femeilor românce în Elveția",
   ];
 
   return (
@@ -35,31 +34,9 @@ const Vision = () => {
               
               <h3 className="font-serif text-2xl font-bold mb-4">Our Vision</h3>
               
-              <p className="text-primary-foreground/90 text-lg leading-relaxed mb-4">
-                Să construim un spațiu care:
+              <p className="text-primary-foreground/90 text-lg leading-relaxed">
+                Să devenim principala rețea a femeilor românce din life sciences din Elveția, recunoscută pentru conexiune, colaborare, mentorat și vizibilitate — un pod real între ecosistemele științifice, antreprenoriale și de politici publice din România și Elveția.
               </p>
-              <ul className="space-y-2 text-primary-foreground/90">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary-foreground">•</span>
-                  <span>Conectează femei românce din toate domeniile life sciences</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary-foreground">•</span>
-                  <span>Sprijină creșterea profesională și personală</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary-foreground">•</span>
-                  <span>Facilitează colaborări, mentorat și vizibilitate</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary-foreground">•</span>
-                  <span>Oferă inspirație, povești și suport reciproc</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary-foreground">•</span>
-                  <span>Contribuie la reprezentarea și integrarea profesională a femeilor românce în Elveția</span>
-                </li>
-              </ul>
             </div>
           </div>
 
@@ -72,7 +49,7 @@ const Vision = () => {
                 <Compass className="w-7 h-7 text-accent-foreground" />
               </div>
               
-              <h3 className="font-serif text-2xl font-bold text-foreground mb-4">Our Mission</h3>
+              <h3 className="font-serif text-2xl font-bold text-foreground mb-2">Să construim un spațiu care:</h3>
               
               <ul className="space-y-3">
                 {missionPoints.map((point, index) => (
