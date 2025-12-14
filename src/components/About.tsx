@@ -3,23 +3,23 @@ import { Users, Target, Heart, Sparkles } from "lucide-react";
 const features = [
   {
     icon: Users,
-    title: "Community",
-    description: "A supportive network of Romanian women scientists working across Switzerland's leading institutions.",
+    title: "Comunitate profesionala",
+    description: "O retea de sprijin a femeilor românce care studiaza si lucreaza in domeniul life sciences in Elvetia.",
   },
   {
     icon: Target,
-    title: "Career Growth",
-    description: "Mentorship programs, workshops, and resources to advance your scientific career.",
+    title: "Dezvoltare profesionala",
+    description: "Mentorat, ateliere si resurse dedicate evolutiei carierei tale in life sciences.",
   },
   {
     icon: Heart,
-    title: "Cultural Connection",
-    description: "Celebrating our Romanian heritage while embracing our Swiss scientific community.",
+    title: "Conexiune culturala",
+    description: "Ne onoram identitatea romaneasca, fiind in acelasi timp parte activa a ecosistemului elvetian de life sciences.",
   },
   {
     icon: Sparkles,
-    title: "Innovation",
-    description: "Fostering collaboration and groundbreaking research across life science disciplines.",
+    title: "Colaborare si inovatie",
+    description: "Incurajam colaborari interdisciplinare si contributii relevante la cercetare, inovatie si antreprenoriat in life sciences.",
   },
 ];
 
@@ -32,12 +32,11 @@ const About = () => {
             About Us
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-            Who We Are
+            Cine suntem
           </h2>
           <p className="text-muted-foreground text-lg">
-            We are a dynamic community of Romanian women making significant contributions 
-            to life sciences research and innovation across Switzerland. From biotech startups 
-            to world-renowned research institutions, our members are shaping the future of science.
+          Suntem o comunitate dinamică de femei românce care contribuie activ la cercetarea și inovarea în domeniul life sciences în Elveția. 
+          De la startup-uri bio/medtech la instituții de cercetare recunoscute la nivel internațional, membrele noastre modelează viitorul științei prin expertiza, curajul și pasiunea lor.
           </p>
         </div>
 
