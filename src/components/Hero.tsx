@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container relative z-10 px-4 pt-20 pb-12 text-center">
         <div className="max-w-4xl mx-auto">
           <span className="inline-block px-4 py-2 mb-6 text-sm font-medium bg-accent text-accent-foreground rounded-full">
-            Empowering Women in Science
+            Empowering Romanian Women in Life Sciences
           </span>
           
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
@@ -28,8 +28,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            A vibrant network connecting Romanian women scientists across Switzerland, 
-            fostering collaboration, mentorship, and professional growth in the life sciences.
+            Românce in Life Sciences este o comunitate dedicată femeilor românce din domeniul life sciences din Elveția. Obiectivul nostru este să construim un spațiu de încredere, colaborare și vizibilitate, care să conecteze ecosistemele științifice, academice, industriale și antreprenoriale din România și Elveția.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
