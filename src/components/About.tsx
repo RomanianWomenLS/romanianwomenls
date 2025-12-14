@@ -35,8 +35,7 @@ const About = () => {
             Cine suntem
           </h2>
           <p className="text-muted-foreground text-lg">
-          Suntem o comunitate dinamică de femei românce care contribuie activ la cercetarea și inovarea în domeniul life sciences în Elveția. 
-          De la startup-uri bio/medtech la instituții de cercetare recunoscute la nivel internațional, membrele noastre modelează viitorul științei prin expertiza, curajul și pasiunea lor.
+          Suntem o comunitate de femei românce unite de interesul pentru life sciences, care contribuie din roluri diverse la ecosistemul elvețian — de la cercetare și industrie la antreprenoriat, consultanță, drept și finanțe.
           </p>
         </div>
 

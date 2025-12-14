@@ -30,7 +30,7 @@ const Story = () => {
               Povestea Noastră
             </span>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-              Uneori, comunitățile se nasc dintr-o nevoie clară. Alteori, dintr-o conversație care refuză să se termine. Așa a început și Românce in Life Sciences.
+              Uneori, comunitățile se nasc dintr-o nevoie clară. Alteori, dintr-o conversație care refuză să se termine.
             </h2>
             
             <div className="space-y-4 text-muted-foreground">

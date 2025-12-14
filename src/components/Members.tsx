@@ -3,40 +3,40 @@ import { Linkedin } from "lucide-react";
 
 const members = [
   {
-    name: "Dr. Maria Ionescu",
-    role: "Molecular Biologist",
-    institution: "ETH Zürich",
-    quote: "This network has been instrumental in my career growth and finding collaborators.",
+    name: "Dr. Andreea Loredana Crețu",
+    role: "Head",
+    institution: "BioMed Entrepreneurship Programs | University of Zürich",
+    quote: "Această comunitate există pentru că există o nevoie reală. Când femei românce aleg să se conecteze, se creează nu doar apartenență, ci și potențial de impact.",
   },
   {
-    name: "Dr. Elena Popa",
-    role: "Pharmacologist",
-    institution: "Novartis, Basel",
-    quote: "Being part of RWILS means having a second family in Switzerland.",
+    name: "Andreea Stănescu",
+    role: "Transformation Architect",
+    institution: "Originate LAB",
+    quote: "quote here.",
   },
   {
-    name: "Dr. Ana Moldovan",
-    role: "Neuroscientist",
-    institution: "EPFL Lausanne",
-    quote: "The mentorship I received here shaped my path to becoming a group leader.",
+    name: "Dr. Anca Denise Ciuta",
+    role: "Life Sciences Consultant",
+    institution: "Windrose Consulting Group",
+    quote: "quote here",
   },
   {
-    name: "Dr. Cristina Dumitrescu",
-    role: "Biotech Entrepreneur",
-    institution: "Geneva Biotech Hub",
-    quote: "From researcher to founder, RWILS supported me every step of the way.",
+    name: "Dr. Irina Lazăr-Conteș",
+    role: "Regulatory Affairs Manager",
+    institution: "GSK",
+    quote: "quote here",
   },
   {
-    name: "Dr. Ioana Radu",
-    role: "Immunologist",
-    institution: "Roche, Basel",
-    quote: "Connecting with fellow Romanian scientists enriches both my work and life.",
+    name: "Anca del Rio",
+    role: "Consultant",
+    institution: "WHO",
+    quote: "quote here",
   },
   {
-    name: "Dr. Raluca Stanescu",
-    role: "Computational Biologist",
-    institution: "University of Basel",
-    quote: "The workshops and events have opened doors I never knew existed.",
+    name: "Alexandra Rogojina",
+    role: "PhD Candidate Neuroimmunology",
+    institution: "University of Zürich",
+    quote: "quote here",
   },
 ];
 
@@ -46,14 +46,13 @@ const Members = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-sm font-medium text-primary uppercase tracking-wider">
-            Our Members
+            Membrele noastre
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-            Meet Our Community
+            Cunoaște comunitatea noastră
           </h2>
           <p className="text-muted-foreground text-lg">
-            Our members work at the forefront of life sciences across Switzerland's 
-            top universities, research institutes, and pharmaceutical companies.
+            Membrele noastre activează în roluri diverse în cadrul ecosistemului life sciences din Elveția, de la universități și institute de cercetare de top la companii farmaceutice, biotech și organizații conexe.
           </p>
         </div>
 
@@ -96,7 +95,7 @@ const Members = () => {
 
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
-            And many more talented scientists across Switzerland...
+            Și multe alte profesioniste talentate din domeniul life sciences din întreaga Elveție…
           </p>
         </div>
       </div>
