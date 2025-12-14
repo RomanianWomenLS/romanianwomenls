@@ -13,7 +13,7 @@ const Story = () => {
                     <span className="font-serif text-4xl text-primary">🇷🇴</span>
                   </div>
                   <p className="font-serif text-2xl text-foreground font-semibold">
-                    Est. 2018
+                    Est. 2025
                   </p>
                   <p className="text-muted-foreground mt-2">Zürich, Switzerland</p>
                 </div>
@@ -27,40 +27,35 @@ const Story = () => {
           {/* Text Side */}
           <div>
             <span className="text-sm font-medium text-primary uppercase tracking-wider">
-              Our Story
+              Povestea Noastră
             </span>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-              From a Small Gathering to a Thriving Network
+              Uneori, comunitățile se nasc dintr-o nevoie clară. Alteori, dintr-o conversație care refuză să se termine. Așa a început și Românce in Life Sciences.
             </h2>
             
             <div className="space-y-4 text-muted-foreground">
               <p>
-                In 2018, a small group of Romanian women scientists working in Switzerland's 
-                life sciences sector came together over coffee in Zürich. What started as an 
-                informal meetup quickly revealed a shared need: a supportive community that 
-                understood the unique challenges of being both Romanian and a woman in science.
+                Andreea Loredana Crețu și Andreea Stănescu s-au cunoscut în Zürich, într-o întâlnire programată inițial pentru 30 de minute. 
+                Doar că discuția a continuat aproape două ore. 
+                Nu pentru că ar fi fost planificat așa, ci pentru că subiectele curgeau natural: cariere în life sciences, viața profesională în Elveția, provocările și oportunitățile pentru femeile românce, și mai ales — câte femei extraordinare românce cunosc fiecare dintre ele în acest domeniu.
               </p>
               <p>
-                Inspired by this connection, we founded the Romanian Women in Life Sciences 
-                Switzerland network. Our goal was simple yet powerful: to create a platform 
-                where Romanian women scientists could share experiences, support each other's 
-                careers, and celebrate our contributions to Swiss science.
+                Ce a urmat a fost o masă de prânz aparent casual, care s-a transformat rapid într-o conversație despre sens, impact și responsabilitatea de a crea ceva mai mare decât ele. 
+                Amândouă aveau aceeași senzație: de-a lungul anilor întâlniseră românce remarcabile în cercetare, industrie, antreprenoriat și consultanță, dar aceste întâlniri se întâmplau fragmentat, întâmplător, fără un spațiu comun care să le aducă împreună.
               </p>
               <p>
-                Today, our network spans across major Swiss cities including Basel, Zürich, 
-                Geneva, and Lausanne. We host regular events, mentorship programs, and 
-                collaborative initiatives that continue to strengthen our community and 
-                advance women in life sciences.
+                Din această energie a apărut o misiune clară: să creeze un loc unde româncele din life sciences din Elveția se pot conecta autentic, pot împărtăși experiențe, pot colabora și se pot sprijini reciproc.
+                Așa s-a născut Românce in Life Sciences — nu ca un proiect formal, ci ca o comunitate construită pe încredere, curiozitate și dorința de a crește împreună.
               </p>
             </div>
 
             <div className="flex gap-8 mt-8 pt-8 border-t border-border">
               <div>
-                <p className="font-serif text-3xl font-bold text-primary">150+</p>
+                <p className="font-serif text-3xl font-bold text-primary">30+</p>
                 <p className="text-sm text-muted-foreground">Active Members</p>
               </div>
               <div>
-                <p className="font-serif text-3xl font-bold text-primary">6</p>
+                <p className="font-serif text-3xl font-bold text-primary">1</p>
                 <p className="text-sm text-muted-foreground">Years Strong</p>
               </div>
               <div>
