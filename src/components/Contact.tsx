@@ -68,7 +68,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-background p-8 rounded-xl border border-border">
             <h3 className="font-serif text-xl font-semibold text-foreground mb-6">
-              Send us a message
+              Ia legătura cu noi
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">

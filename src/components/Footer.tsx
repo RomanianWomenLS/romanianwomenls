@@ -13,28 +13,28 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
+            <h4 className="font-semibold mb-4">Linkuri rapide</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="#about" className="hover:text-background transition-colors">About</a></li>
-              <li><a href="#story" className="hover:text-background transition-colors">Our Story</a></li>
-              <li><a href="#members" className="hover:text-background transition-colors">Members</a></li>
-              <li><a href="#vision" className="hover:text-background transition-colors">Vision & Mission</a></li>
+              <li><a href="#about" className="hover:text-background transition-colors">Despre noi<</a></li>
+              <li><a href="#story" className="hover:text-background transition-colors">Povestea noastră</a></li>
+              <li><a href="#members" className="hover:text-background transition-colors">Membre</a></li>
+              <li><a href="#vision" className="hover:text-background transition-colors">Viziune & Misiune</a></li>
               <li><a href="#contact" className="hover:text-background transition-colors">Contact</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Connect</h4>
+            <h4 className="font-semibold mb-4">Ia legătura cu noi</h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li><a href="mailto:contact@rwils.ch" className="hover:text-background transition-colors">contact@rwils.ch</a></li>
               <li><a href="#" className="hover:text-background transition-colors">LinkedIn</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Twitter</a></li>
+             % <li><a href="#" className="hover:text-background transition-colors">Twitter</a></li>
             </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-background/20 text-center text-sm text-background/60">
-          <p>© {currentYear} Romanian Women in Life Sciences Switzerland. All rights reserved.</p>
+          <p>© {currentYear} Românce in Life Sciences - Elveția. Toate drepturile rezervate.</p>
         </div>
       </div>
     </footer>
