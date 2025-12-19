@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Linkuri rapide</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="#about" className="hover:text-background transition-colors">Despre noi<</a></li>
+              <li><a href="#about" className="hover:text-background transition-colors">Despre noi</a></li>
               <li><a href="#story" className="hover:text-background transition-colors">Povestea noastră</a></li>
               <li><a href="#members" className="hover:text-background transition-colors">Membre</a></li>
               <li><a href="#vision" className="hover:text-background transition-colors">Viziune & Misiune</a></li>
