@@ -11,14 +11,13 @@ const Contact = () => {
           {/* Contact Info */}
           <div>
             <span className="text-sm font-medium text-primary uppercase tracking-wider">
-              Get in Touch
+              Ia legătura cu noi
             </span>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-              Join Our Community
+              Alătură-te comunității noastre
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Whether you're interested in becoming a member, partnering with us, 
-              or simply learning more about our network, we'd love to hear from you.
+              Fie că ești interesată să devii membră, să colaborezi cu noi sau pur și simplu să afli mai multe despre rețeaua noastră, ne-ar face plăcere să te cunoaștem.
             </p>
 
             <div className="space-y-4">
@@ -27,7 +26,7 @@ const Contact = () => {
                   <Mail className="w-5 h-5 text-accent-foreground" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Email us at</p>
+                  <p className="text-sm text-muted-foreground">Scrie-ne la </p>
                   <a href="mailto:contact@rwils.ch" className="text-foreground hover:text-primary transition-colors">
                     contact@rwils.ch
                   </a>
@@ -39,14 +38,14 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-accent-foreground" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Based in</p>
+                  <p className="text-sm text-muted-foreground">Ne găsești în</p>
                   <p className="text-foreground">Zürich, Switzerland</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-8 pt-8 border-t border-border">
-              <p className="text-sm text-muted-foreground mb-4">Follow us on social media</p>
+              <p className="text-sm text-muted-foreground mb-4">Urmărește-ne pe Linkedin</p>
               <div className="flex gap-4">
                 <a
                   href="#"
@@ -75,38 +74,38 @@ const Contact = () => {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                    Name
+                    Nume
                   </label>
-                  <Input id="name" placeholder="Your name" />
+                  <Input id="name" placeholder="Numele tău" />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
                     Email
                   </label>
-                  <Input id="email" type="email" placeholder="your@email.com" />
+                  <Input id="email" type="email" placeholder="adresa@email.com" />
                 </div>
               </div>
 
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-                  Subject
+                  Subiect
                 </label>
-                <Input id="subject" placeholder="How can we help?" />
+                <Input id="subject" placeholder="Cum te putem ajuta?" />
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                  Message
+                  Mesaj
                 </label>
                 <Textarea
                   id="message"
-                  placeholder="Tell us about yourself and your interest in RWILS..."
+                  placeholder="Spune-ne câteva lucruri despre tine și interesul tău pentru Românce in Life Sciences"
                   rows={5}
                 />
               </div>
 
               <Button type="submit" className="w-full">
-                Send Message
+                Trimite mesajul
               </Button>
             </form>
           </div>
