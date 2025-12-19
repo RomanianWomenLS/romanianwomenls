@@ -10,6 +10,7 @@ const Header = () => {
     { href: "#story", label: "Povestea Noastră" },
     { href: "#members", label: "Membre active" },
     { href: "#vision", label: "Viziune & Misiune" },
+    { href: "#oportunitati", label: "Oportunități" },
     { href: "#contact", label: "Contact" },
   ];
 
