@@ -32,8 +32,8 @@ const members = [
   },
   {
     name: "Anca del Rio",
-    role: "Consultant",
-    institution: "WHO",
+    role: "Consultant Data, AI and Digital Health",
+    institution: "World Health Organization (WHO)",
     quote: "quote here",
     linkedin: "https://www.linkedin.com/in/ancapdr/",
   },
