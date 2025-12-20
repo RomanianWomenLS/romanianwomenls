@@ -48,7 +48,7 @@ const Contact = () => {
               <p className="text-sm text-muted-foreground mb-4">Urmărește-ne pe Linkedin</p>
               <div className="flex gap-4">
                 <a
-                  href="https://www.linkedin.com/company/110125288/"
+                  href="https://www.linkedin.com/company/rom%C3%A2nce-%C3%AEn-life-sciences/?viewAsMember=true"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center hover:bg-accent hover:border-accent transition-colors"
