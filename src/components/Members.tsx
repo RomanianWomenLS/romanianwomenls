@@ -4,39 +4,45 @@ import { Linkedin } from "lucide-react";
 const members = [
   {
     name: "Dr. Andreea Loredana Crețu",
-    role: "Head",
-    institution: "BioMed Entrepreneurship Programs | University of Zürich",
+    role: "Head BioMed Entrepreneurship Programs",
+    institution: "University of Zürich",
     quote: "Această comunitate există pentru că există o nevoie reală. Când femei românce aleg să se conecteze, se creează nu doar apartenență, ci și potențial de impact.",
+    linkedin: "https://www.linkedin.com/in/alcretu/",
   },
   {
     name: "Andreea Stănescu",
     role: "Transformation Architect",
     institution: "Originate LAB",
     quote: "quote here.",
+    linkedin: "",
   },
   {
     name: "Dr. Anca Denise Ciuta",
     role: "Life Sciences Consultant",
     institution: "Windrose Consulting Group",
     quote: "quote here",
+    linkedin: "",
   },
   {
     name: "Dr. Irina Lazăr-Conteș",
     role: "Regulatory Affairs Manager",
     institution: "GSK",
     quote: "quote here",
+    linkedin: "",
   },
   {
     name: "Anca del Rio",
     role: "Consultant",
     institution: "WHO",
     quote: "quote here",
+    linkedin: "",
   },
   {
     name: "Alexandra Rogojina",
     role: "PhD Candidate Neuroimmunology",
     institution: "University of Zürich",
     quote: "quote here",
+    linkedin: "",
   },
 ];
 
@@ -76,12 +82,21 @@ const Members = () => {
                     <p className="text-sm text-primary">{member.role}</p>
                     <p className="text-xs text-muted-foreground">{member.institution}</p>
                   </div>
-                  <button
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    aria-label={`Connect with ${member.name} on LinkedIn`}
-                  >
-                    <Linkedin size={18} />
-                  </button>
+                  {member.linkedin ? (
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                      aria-label={`Connect with ${member.name} on LinkedIn`}
+                    >
+                      <Linkedin size={18} />
+                    </a>
+                  ) : (
+                    <span className="text-muted-foreground/50">
+                      <Linkedin size={18} />
+                    </span>
+                  )}
                 </div>
                 <blockquote className="mt-4 pt-4 border-t border-border">
                   <p className="text-sm text-muted-foreground italic">
