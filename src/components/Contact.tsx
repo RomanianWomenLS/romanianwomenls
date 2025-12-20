@@ -1,4 +1,4 @@
-import { Mail, MapPin, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -55,13 +55,6 @@ const Contact = () => {
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="w-5 h-5 text-foreground" />
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center hover:bg-accent hover:border-accent transition-colors"
-                  aria-label="Twitter"
-                >
-                  <Twitter className="w-5 h-5 text-foreground" />
                 </a>
               </div>
             </div>
