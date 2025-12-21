@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,9 +36,17 @@ const Header = () => {
             ))}
           </nav>
 
-          <Button className="hidden md:inline-flex" size="sm">
-            Join Us
-          </Button>
+          <div className="hidden md:flex items-center gap-3">
+            <Button asChild variant="outline" size="sm">
+              <Link to="/evenimente">
+                <Calendar className="mr-2 h-4 w-4" />
+                Evenimente
+              </Link>
+            </Button>
+            <Button size="sm">
+              Join Us
+            </Button>
+          </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -63,6 +72,12 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
+              <Button asChild variant="outline" size="sm" className="w-fit">
+                <Link to="/evenimente">
+                  <Calendar className="mr-2 h-4 w-4" />
+                  Evenimente
+                </Link>
+              </Button>
               <Button size="sm" className="w-fit">
                 Join Us
               </Button>

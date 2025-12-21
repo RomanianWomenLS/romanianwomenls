@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+import { Calendar } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -7,9 +11,15 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="font-serif text-xl font-semibold mb-4">RWILS</h3>
-            <p className="text-background/70 text-sm">
+            <p className="text-background/70 text-sm mb-4">
              Conectăm femei românce din domeniul life sciences și sprijinim colaborarea, creșterea profesională și impactul în ecosistemul elvețian.
             </p>
+            <Button asChild variant="secondary" size="sm">
+              <Link to="/evenimente">
+                <Calendar className="mr-2 h-4 w-4" />
+                Vezi evenimente
+              </Link>
+            </Button>
           </div>
 
           <div>
@@ -19,6 +29,7 @@ const Footer = () => {
               <li><a href="#story" className="hover:text-background transition-colors">Povestea noastră</a></li>
               <li><a href="#members" className="hover:text-background transition-colors">Membre</a></li>
               <li><a href="#vision" className="hover:text-background transition-colors">Viziune & Misiune</a></li>
+              <li><Link to="/evenimente" className="hover:text-background transition-colors">Evenimente</Link></li>
               <li><a href="#contact" className="hover:text-background transition-colors">Contact</a></li>
             </ul>
           </div>
