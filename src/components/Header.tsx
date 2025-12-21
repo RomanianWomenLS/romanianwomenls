@@ -1,18 +1,28 @@
 import { useState } from "react";
-import { Menu, X, Calendar } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const navLinks = [
-    { href: "#about", label: "Despre noi" },
+  const aboutLinks = [
     { href: "#story", label: "Povestea Noastră" },
-    { href: "#members", label: "Membre active" },
     { href: "#vision", label: "Viziune & Misiune" },
+    { href: "#members", label: "Membre active" },
+  ];
+
+  const memberLinks = [
     { href: "#oportunitati", label: "Oportunități" },
-    { href: "#contact", label: "Contact" },
+    { href: "/evenimente", label: "Evenimente", isRoute: true },
   ];
 
   return (
@@ -24,25 +34,75 @@ const Header = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
-          </nav>
+          <NavigationMenu className="hidden md:flex">
+            <NavigationMenuList>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger className="bg-transparent">
+                  Despre noi
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="w-48 p-2 bg-background border border-border rounded-md shadow-lg">
+                    {aboutLinks.map((link) => (
+                      <li key={link.href}>
+                        <NavigationMenuLink asChild>
+                          <a
+                            href={link.href}
+                            className="block px-3 py-2 text-sm text-foreground hover:bg-muted rounded-md transition-colors"
+                          >
+                            {link.label}
+                          </a>
+                        </NavigationMenuLink>
+                      </li>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
 
-          <div className="hidden md:flex items-center gap-3">
-            <Button asChild variant="outline" size="sm">
-              <Link to="/evenimente">
-                <Calendar className="mr-2 h-4 w-4" />
-                Evenimente
-              </Link>
-            </Button>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger className="bg-transparent">
+                  Member Area
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="w-48 p-2 bg-background border border-border rounded-md shadow-lg">
+                    {memberLinks.map((link) => (
+                      <li key={link.href}>
+                        <NavigationMenuLink asChild>
+                          {link.isRoute ? (
+                            <Link
+                              to={link.href}
+                              className="block px-3 py-2 text-sm text-foreground hover:bg-muted rounded-md transition-colors"
+                            >
+                              {link.label}
+                            </Link>
+                          ) : (
+                            <a
+                              href={link.href}
+                              className="block px-3 py-2 text-sm text-foreground hover:bg-muted rounded-md transition-colors"
+                            >
+                              {link.label}
+                            </a>
+                          )}
+                        </NavigationMenuLink>
+                      </li>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild>
+                  <a
+                    href="#contact"
+                    className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors px-4 py-2"
+                  >
+                    Contact
+                  </a>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+
+          <div className="hidden md:flex items-center">
             <Button size="sm">
               Join Us
             </Button>
@@ -62,22 +122,50 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {link.label}
-                </a>
-              ))}
-              <Button asChild variant="outline" size="sm" className="w-fit">
-                <Link to="/evenimente">
-                  <Calendar className="mr-2 h-4 w-4" />
-                  Evenimente
-                </Link>
-              </Button>
+              <div className="space-y-2">
+                <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Despre noi</p>
+                {aboutLinks.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className="block text-sm font-medium text-foreground/80 hover:text-primary transition-colors pl-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+              <div className="space-y-2">
+                <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Member Area</p>
+                {memberLinks.map((link) => (
+                  link.isRoute ? (
+                    <Link
+                      key={link.href}
+                      to={link.href}
+                      className="block text-sm font-medium text-foreground/80 hover:text-primary transition-colors pl-2"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      className="block text-sm font-medium text-foreground/80 hover:text-primary transition-colors pl-2"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {link.label}
+                    </a>
+                  )
+                ))}
+              </div>
+              <a
+                href="#contact"
+                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Contact
+              </a>
               <Button size="sm" className="w-fit">
                 Join Us
               </Button>
