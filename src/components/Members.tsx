@@ -32,9 +32,9 @@ const members = [
   },
   {
     name: "Anca del Rio",
-    role: "Consultant Data, AI and Digital Health",
+    role: "Consultant Data, Artificial Intelligence and Digital Health",
     institution: "World Health Organization (WHO)",
-    quote: "quote here",
+    quote: "I live and breathe digital health, AI, and system innovation. Pe scurt, încerc să fac sistemele de sănătate un pic mai inteligente, mai echitabile și mai pregătite pentru viitor. Lucrez cu OMS și HIMSS și am colaborat, de asemenea, cu Comisia Europeană (EIT, EIT Health), organizații din domeniul sănătății și ecosisteme de inovare. My \u201Ehappy place\u201D este acolo unde sănătatea publică întâlnește tehnologia și ideile mari se transformă în impact.",
     linkedin: "https://www.linkedin.com/in/ancapdr/",
   },
   {
