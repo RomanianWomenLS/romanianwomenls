@@ -51,6 +51,13 @@ const members = [
     quote: "Daca iti doresti sa inveti, nimeni nu te poate opri; daca nu iti doresti - nimeni nu te poate obliga",
     linkedin: "",
   },
+  {
+    name: "Roxana-Cristina Petrus",
+    role: "Licensed Psychologist | Counselling & Training",
+    institution: "Being Human GmbH",
+    quote: "Cred cu tarie intr-o lume in care ne tratam unii pe altii cu mai multa bunatate, respect si grija, unde majoritatea oamenilor se simt conectati, gasesc sens in ceea ce traiesc si sunt impliniti prin munca lor. Merita sa contribuim impreuna la construirea acestei lumi!",
+    linkedin: "",
+  },
 ];
 
 const Members = () => {
