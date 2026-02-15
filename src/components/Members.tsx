@@ -45,7 +45,7 @@ const members = [
     linkedin: "https://www.linkedin.com/in/alexandra-rogojina/",
   },
   {
-    name: "Ioana Bolog",
+    name: "Ioana Bolog, MD",
     role: "Learning and Development Consultant",
     institution: "",
     quote: "Daca iti doresti sa inveti, nimeni nu te poate opri; daca nu iti doresti - nimeni nu te poate obliga",
