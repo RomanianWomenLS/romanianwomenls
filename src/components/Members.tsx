@@ -58,6 +58,13 @@ const members = [
     quote: "Cred cu tarie intr-o lume in care ne tratam unii pe altii cu mai multa bunatate, respect si grija, unde majoritatea oamenilor se simt conectati, gasesc sens in ceea ce traiesc si sunt impliniti prin munca lor. Merita sa contribuim impreuna la construirea acestei lumi!",
     linkedin: "",
   },
+  {
+    name: "Dr. Oliviana Calin-Eller",
+    role: "Patent Attorney",
+    institution: "E. Blum & Co AG",
+    quote: "",
+    linkedin: "",
+  },
 ];
 
 const Members = () => {
