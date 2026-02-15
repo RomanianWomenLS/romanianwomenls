@@ -44,6 +44,13 @@ const members = [
     quote: "quote here",
     linkedin: "https://www.linkedin.com/in/alexandra-rogojina/",
   },
+  {
+    name: "Ioana Bolog",
+    role: "Learning and Development Consultant",
+    institution: "",
+    quote: "Daca iti doresti sa inveti, nimeni nu te poate opri; daca nu iti doresti - nimeni nu te poate obliga",
+    linkedin: "",
+  },
 ];
 
 const Members = () => {
