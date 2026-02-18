@@ -31,14 +31,11 @@ const Hero = () => {
             Românce in Life Sciences este o comunitate dedicată femeilor românce din domeniul life sciences din Elveția. Obiectivul nostru este să construim un spațiu de încredere, colaborare și vizibilitate, care să conecteze ecosistemele științifice, academice, industriale și antreprenoriale din România și Elveția.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" className="font-medium" asChild>
               <a href="https://forms.gle/p7osfEhshFFtJHcY8" target="_blank" rel="noopener noreferrer">
                 Become a Member
               </a>
-            </Button>
-            <Button size="lg" variant="outline" className="font-medium">
-              Learn More
             </Button>
           </div>
         </div>
