@@ -13,21 +13,21 @@ const members = [
     name: "Andreea Stănescu",
     role: "Transformation Architect",
     institution: "Originate LAB",
-    quote: "quote here.",
+    quote: "",
     linkedin: "https://www.linkedin.com/in/andreeastanescu-change/",
   },
   {
     name: "Dr. Anca Denise Ciuta",
     role: "Life Sciences Consultant",
     institution: "Windrose Consulting Group",
-    quote: "quote here",
+    quote: "",
     linkedin: "https://www.linkedin.com/in/aciuta/",
   },
   {
     name: "Dr. Irina Lazăr-Conteș",
     role: "Regulatory Affairs Manager",
     institution: "GSK",
-    quote: "quote here",
+    quote: "",
     linkedin: "https://www.linkedin.com/in/irinalazarcontes/",
   },
   {
@@ -41,7 +41,7 @@ const members = [
     name: "Alexandra Rogojina",
     role: "PhD Candidate Neuroimmunology",
     institution: "University of Zürich",
-    quote: "quote here",
+    quote: "",
     linkedin: "https://www.linkedin.com/in/alexandra-rogojina/",
   },
   {
@@ -119,11 +119,13 @@ const Members = () => {
                     </span>
                   )}
                 </div>
-                <blockquote className="mt-4 pt-4 border-t border-border">
-                  <p className="text-sm text-muted-foreground italic">
-                    "{member.quote}"
-                  </p>
-                </blockquote>
+                {member.quote && (
+                  <blockquote className="mt-4 pt-4 border-t border-border">
+                    <p className="text-sm text-muted-foreground italic">
+                      "{member.quote}"
+                    </p>
+                  </blockquote>
+                )}
               </CardContent>
             </Card>
           ))}
