@@ -103,8 +103,10 @@ const Header = () => {
           </NavigationMenu>
 
           <div className="hidden md:flex items-center">
-            <Button size="sm">
-              Join Us
+            <Button size="sm" asChild>
+              <a href="https://forms.gle/p7osfEhshFFtJHcY8" target="_blank" rel="noopener noreferrer">
+                Join Us
+              </a>
             </Button>
           </div>
 
@@ -166,8 +168,10 @@ const Header = () => {
               >
                 Contact
               </a>
-              <Button size="sm" className="w-fit">
-                Join Us
+              <Button size="sm" className="w-fit" asChild>
+                <a href="https://forms.gle/p7osfEhshFFtJHcY8" target="_blank" rel="noopener noreferrer">
+                  Join Us
+                </a>
               </Button>
             </div>
           </nav>
