@@ -22,7 +22,7 @@ const Header = () => {
 
   const memberLinks = [
     { href: "#oportunitati", label: "Oportunități" },
-    { href: "/evenimente", label: "Evenimente", isRoute: true },
+    // { href: "/evenimente", label: "Evenimente", isRoute: true }, // hidden for now
   ];
 
   return (
@@ -67,21 +67,12 @@ const Header = () => {
                     {memberLinks.map((link) => (
                       <li key={link.href}>
                         <NavigationMenuLink asChild>
-                          {link.isRoute ? (
-                            <Link
-                              to={link.href}
-                              className="block px-3 py-2 text-sm text-foreground hover:bg-muted rounded-md transition-colors"
-                            >
-                              {link.label}
-                            </Link>
-                          ) : (
-                            <a
-                              href={link.href}
-                              className="block px-3 py-2 text-sm text-foreground hover:bg-muted rounded-md transition-colors"
-                            >
-                              {link.label}
-                            </a>
-                          )}
+                          <a
+                            href={link.href}
+                            className="block px-3 py-2 text-sm text-foreground hover:bg-muted rounded-md transition-colors"
+                          >
+                            {link.label}
+                          </a>
                         </NavigationMenuLink>
                       </li>
                     ))}
@@ -140,25 +131,14 @@ const Header = () => {
               <div className="space-y-2">
                 <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Member Area</p>
                 {memberLinks.map((link) => (
-                  link.isRoute ? (
-                    <Link
-                      key={link.href}
-                      to={link.href}
-                      className="block text-sm font-medium text-foreground/80 hover:text-primary transition-colors pl-2"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {link.label}
-                    </Link>
-                  ) : (
-                    <a
-                      key={link.href}
-                      href={link.href}
-                      className="block text-sm font-medium text-foreground/80 hover:text-primary transition-colors pl-2"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {link.label}
-                    </a>
-                  )
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className="block text-sm font-medium text-foreground/80 hover:text-primary transition-colors pl-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {link.label}
+                  </a>
                 ))}
               </div>
               <a
