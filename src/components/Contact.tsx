@@ -1,7 +1,5 @@
 import { Mail, MapPin, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 
 const Contact = () => {
   return (
@@ -60,49 +58,19 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
-          <div className="bg-background p-8 rounded-xl border border-border">
-            <h3 className="font-serif text-xl font-semibold text-foreground mb-6">
+          {/* Contact CTA */}
+          <div className="bg-background p-8 rounded-xl border border-border flex flex-col items-center justify-center text-center gap-6">
+            <h3 className="font-serif text-xl font-semibold text-foreground">
               Ia legătura cu noi
             </h3>
-            <form className="space-y-6">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                    Nume
-                  </label>
-                  <Input id="name" placeholder="Numele tău" />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                    Email
-                  </label>
-                  <Input id="email" type="email" placeholder="adresa@email.com" />
-                </div>
-              </div>
-
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-                  Subiect
-                </label>
-                <Input id="subject" placeholder="Cum te putem ajuta?" />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                  Mesaj
-                </label>
-                <Textarea
-                  id="message"
-                  placeholder="Spune-ne câteva lucruri despre tine și interesul tău pentru Românce in Life Sciences"
-                  rows={5}
-                />
-              </div>
-
-              <Button type="submit" className="w-full">
-                Trimite mesajul
-              </Button>
-            </form>
+            <p className="text-muted-foreground">
+              Completează formularul și te vom contacta în cel mai scurt timp.
+            </p>
+            <Button size="lg" asChild>
+              <a href="https://forms.gle/tFWmNy2hS7zXckkc8" target="_blank" rel="noopener noreferrer">
+                Deschide formularul
+              </a>
+            </Button>
           </div>
         </div>
       </div>
