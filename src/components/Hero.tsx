@@ -32,8 +32,10 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="font-medium">
-              Become a Member
+            <Button size="lg" className="font-medium" asChild>
+              <a href="https://forms.gle/p7osfEhshFFtJHcY8" target="_blank" rel="noopener noreferrer">
+                Become a Member
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="font-medium">
               Learn More
