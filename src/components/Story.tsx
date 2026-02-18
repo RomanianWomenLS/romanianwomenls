@@ -1,3 +1,9 @@
+const getMonthsSinceOctober2025 = () => {
+  const start = new Date(2025, 9, 1); // October 2025 (month is 0-indexed)
+  const now = new Date();
+  return (now.getFullYear() - start.getFullYear()) * 12 + (now.getMonth() - start.getMonth());
+};
+
 const Story = () => {
   return (
     <section id="story" className="py-24 bg-background">
@@ -55,7 +61,7 @@ const Story = () => {
                 <p className="text-sm text-muted-foreground">Membre active</p>
               </div>
               <div>
-                <p className="font-serif text-3xl font-bold text-primary">3</p>
+                <p className="font-serif text-3xl font-bold text-primary">{getMonthsSinceOctober2025()}</p>
                 <p className="text-sm text-muted-foreground"> Luni de activitate</p>
               </div>
               <div>
