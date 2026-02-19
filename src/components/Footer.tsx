@@ -14,12 +14,12 @@ const Footer = () => {
             <p className="text-background/70 text-sm mb-4">
              Conectăm femei românce din domeniul life sciences și sprijinim colaborarea, creșterea profesională și impactul în ecosistemul elvețian.
             </p>
-            <Button asChild variant="secondary" size="sm">
+            {/* <Button asChild variant="secondary" size="sm">
               <Link to="/evenimente">
                 <Calendar className="mr-2 h-4 w-4" />
                 Vezi evenimente
               </Link>
-            </Button>
+            </Button> */}
           </div>
 
           <div>
@@ -29,7 +29,7 @@ const Footer = () => {
               <li><a href="#story" className="hover:text-background transition-colors">Povestea noastră</a></li>
               <li><a href="#members" className="hover:text-background transition-colors">Membre</a></li>
               <li><a href="#vision" className="hover:text-background transition-colors">Viziune & Misiune</a></li>
-              <li><Link to="/evenimente" className="hover:text-background transition-colors">Evenimente</Link></li>
+              {/* <li><Link to="/evenimente" className="hover:text-background transition-colors">Evenimente</Link></li> */}
               <li><a href="#contact" className="hover:text-background transition-colors">Contact</a></li>
             </ul>
           </div>
