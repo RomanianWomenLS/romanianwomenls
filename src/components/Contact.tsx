@@ -18,7 +18,7 @@ const Contact = () => {
               Fie că ești interesată să devii membră, să colaborezi cu noi sau pur și simplu să afli mai multe despre rețeaua noastră, ne-ar face plăcere să te cunoaștem.
             </p>
 
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                   <Mail className="w-5 h-5 text-accent-foreground" />
@@ -40,7 +40,16 @@ const Contact = () => {
                   <p className="text-foreground">Zürich, Switzerland</p>
                 </div>
               </div>
-            </div>
+            </div> */}
+
+            <p className="text-muted-foreground mb-6">
+              Completează formularul și te vom contacta în cel mai scurt timp.
+            </p>
+            <Button size="lg" asChild>
+              <a href="https://forms.gle/tFWmNy2hS7zXckkc8" target="_blank" rel="noopener noreferrer">
+                Deschide formularul
+              </a>
+            </Button>
 
             <div className="mt-8 pt-8 border-t border-border">
               <p className="text-sm text-muted-foreground mb-4">Urmărește-ne pe Linkedin</p>
@@ -58,7 +67,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact CTA */}
+          {/* Contact CTA — commented out, content moved to left column
           <div className="bg-background p-8 rounded-xl border border-border flex flex-col items-center justify-center text-center gap-6">
             <h3 className="font-serif text-xl font-semibold text-foreground">
               Ia legătura cu noi
@@ -72,6 +81,7 @@ const Contact = () => {
               </a>
             </Button>
           </div>
+          */}
         </div>
       </div>
     </section>
