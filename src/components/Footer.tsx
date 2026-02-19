@@ -37,8 +37,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Ia legătura cu noi</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="mailto:contact@rwils.ch" className="hover:text-background transition-colors">contact@rwils.ch</a></li>
               <li><a href="https://www.linkedin.com/company/rom%C3%A2nce-%C3%AEn-life-sciences/" target="_blank" rel="noopener noreferrer" className="hover:text-background transition-colors">LinkedIn</a></li>
+              <li><a href="https://forms.gle/tFWmNy2hS7zXckkc8" target="_blank" rel="noopener noreferrer" className="hover:text-background transition-colors">Formular de înscriere</a></li>
             </ul>
           </div>
         </div>
