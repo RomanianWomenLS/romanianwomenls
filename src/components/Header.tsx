@@ -20,8 +20,8 @@ const Header = () => {
     { href: "#members", label: "Membre active" },
   ];
 
-  const memberLinks = [
-    { href: "#oportunitati", label: "Oportunități" },
+  const memberLinks: { href: string; label: string }[] = [
+    // { href: "#oportunitati", label: "Oportunități" }, // hidden for now
     // { href: "/evenimente", label: "Evenimente", isRoute: true }, // hidden for now
   ];
 
