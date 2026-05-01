@@ -91,11 +91,6 @@ const Members = () => {
             >
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-14 h-14 rounded-full bg-accent flex items-center justify-center flex-shrink-0">
-                    <span className="font-serif text-lg font-semibold text-accent-foreground">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </span>
-                  </div>
                   <div className="flex-1 min-w-0">
                     <h3 className="font-semibold text-foreground truncate">
                       {member.name}
