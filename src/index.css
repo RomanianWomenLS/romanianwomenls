@@ -94,6 +94,14 @@ All colors MUST be HSL.
     --tracking-normal: 0em;
 
     --spacing: 0.25rem;
+
+    /* Romanian flag — toned-down accents (muted via lower saturation/lightness shifts) */
+    --ro-blue: 218 99% 25%;       /* #012B7F base */
+    --ro-blue-soft: 218 45% 55%;  /* desaturated for backgrounds */
+    --ro-red: 4 65% 48%;          /* #CF3127 toned */
+    --ro-red-soft: 4 55% 65%;
+    --ro-yellow: 48 95% 58%;      /* #FAD02F toned */
+    --ro-yellow-soft: 48 75% 75%;
   }
 
   .dark {
@@ -156,5 +164,26 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  /* Romanian tricolor stripe — vertical (flag-style) */
+  .ro-tricolor {
+    background-image: linear-gradient(
+      to right,
+      hsl(var(--ro-blue) / 0.85) 0 33.33%,
+      hsl(var(--ro-yellow) / 0.85) 33.33% 66.66%,
+      hsl(var(--ro-red) / 0.85) 66.66% 100%
+    );
+  }
+  /* Horizontal version, useful for thin top/bottom borders */
+  .ro-tricolor-h {
+    background-image: linear-gradient(
+      to bottom,
+      hsl(var(--ro-blue) / 0.85) 0 33.33%,
+      hsl(var(--ro-yellow) / 0.85) 33.33% 66.66%,
+      hsl(var(--ro-red) / 0.85) 66.66% 100%
+    );
   }
 }
