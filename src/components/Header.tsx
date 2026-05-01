@@ -58,6 +58,7 @@ const Header = () => {
                 </NavigationMenuContent>
               </NavigationMenuItem>
 
+              {/* Member Area dropdown hidden for now
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="bg-transparent">
                   Member Area
@@ -79,6 +80,7 @@ const Header = () => {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
+              */}
 
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
@@ -128,6 +130,7 @@ const Header = () => {
                   </a>
                 ))}
               </div>
+              {/* Member Area mobile section hidden for now
               <div className="space-y-2">
                 <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Member Area</p>
                 {memberLinks.map((link) => (
@@ -141,6 +144,7 @@ const Header = () => {
                   </a>
                 ))}
               </div>
+              */}
               <a
                 href="#contact"
                 className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
