@@ -62,7 +62,7 @@ const Story = () => {
                 <p className="text-sm text-muted-foreground">Membre active</p>
               </div>
               <div>
-                <p className="font-serif text-3xl font-bold text-primary">{getMonthsSinceOctober2025()}</p>
+                <p className="font-serif text-3xl font-bold text-ro-yellow">{getMonthsSinceOctober2025()}</p>
                 <p className="text-sm text-muted-foreground"> Luni de activitate</p>
               </div>
               <div>
