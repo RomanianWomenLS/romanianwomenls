@@ -11,33 +11,36 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 96%;
-    --foreground: 0 0% 9%;
+    /* Warm cream background, deep warm charcoal text */
+    --background: 36 30% 94%;
+    --foreground: 30 15% 12%;
 
-    --card: 0 0% 98%;
-    --card-foreground: 0 0% 9%;
+    --card: 36 35% 97%;
+    --card-foreground: 30 15% 12%;
 
-    --popover: 0 0% 89%;
-    --popover-foreground: 0 0% 9%;
+    --popover: 36 35% 97%;
+    --popover-foreground: 30 15% 12%;
 
-    --primary: 161 93% 30%;
-    --primary-foreground: 151 80% 95%;
+    /* Deep navy primary — harmonizes with Romanian blue */
+    --primary: 218 55% 22%;
+    --primary-foreground: 36 35% 97%;
 
-    --secondary: 0 0% 32%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 30 10% 30%;
+    --secondary-foreground: 36 35% 97%;
 
-    --muted: 0 0% 63%;
-    --muted-foreground: 0 0% 9%;
+    --muted: 32 15% 88%;
+    --muted-foreground: 30 10% 38%;
 
-    --accent: 166 76% 96%;
-    --accent-foreground: 173 80% 40%;
+    /* Pale sand accent for icon chips & soft surfaces */
+    --accent: 38 40% 88%;
+    --accent-foreground: 218 55% 22%;
 
-    --destructive: 0 72% 50%;
-    --destructive-foreground: 0 85% 97%;
+    --destructive: 4 65% 48%;
+    --destructive-foreground: 36 35% 97%;
 
-    --border: 0 0% 83%;
-    --input: 0 0% 83%;
-    --ring: 161 93% 30%;
+    --border: 32 18% 82%;
+    --input: 32 18% 82%;
+    --ring: 218 55% 22%;
 
     --radius: 0.75rem;
 
