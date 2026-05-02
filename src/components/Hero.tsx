@@ -15,7 +15,6 @@ const Hero = () => {
         {/* Soft cream wash for text legibility, fading fully into background at bottom for a seamless transition */}
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/70 to-background" />
       </div>
-      </div>
 
       {/* Content */}
       <div className="container relative z-10 px-4 pt-20 pb-12 text-center">
