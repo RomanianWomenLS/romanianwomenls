@@ -12,7 +12,9 @@ const Hero = () => {
           alt="Romanian Women in Life Sciences Switzerland hero background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/85 via-background/70 to-background" />
+        {/* Warm beige tint to neutralize the green tones in the DNA image */}
+        <div className="absolute inset-0 bg-accent/60 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/85 via-background/75 to-background" />
       </div>
 
       {/* Content */}
