@@ -11,11 +11,10 @@ const Hero = () => {
           src={heroBg}
           alt="Romanian Women in Life Sciences Switzerland hero background"
           className="w-full h-full object-cover"
-          style={{ filter: "sepia(0.55) hue-rotate(-15deg) saturate(0.7) brightness(1.05)" }}
         />
-        {/* Warm beige wash to fully neutralize remaining green and match the cream palette */}
-        <div className="absolute inset-0 bg-[hsl(36_45%_82%)] mix-blend-multiply opacity-80" />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/70 to-background" />
+        {/* Soft cream wash for text legibility, fading fully into background at bottom for a seamless transition */}
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/70 to-background" />
+      </div>
       </div>
 
       {/* Content */}
