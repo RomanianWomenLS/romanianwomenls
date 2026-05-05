@@ -16,7 +16,7 @@ const Story = () => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center p-8">
                   <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="font-serif text-4xl text-primary">🇷🇴</span>
+                    <span className="font-serif text-4xl text-primary">🇨🇭</span>
                   </div>
                   <div className="ro-tricolor h-1 w-24 mx-auto rounded-full mb-4 opacity-70" />
                   <p className="font-serif text-2xl text-foreground font-semibold">
