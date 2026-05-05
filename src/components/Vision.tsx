@@ -42,7 +42,7 @@ const Vision = () => {
 
           {/* Mission Card */}
           <div className="relative p-8 rounded-xl bg-card border border-border overflow-hidden">
-            <div className="absolute top-0 left-0 bottom-0 w-1.5 ro-tricolor-h opacity-70" />
+            <div className="absolute top-0 left-0 bottom-0 w-1.5 ro-tricolor-h" />
             <div className="absolute top-0 right-0 w-32 h-32 bg-accent rounded-full -translate-y-1/2 translate-x-1/2" />
             
             <div className="relative z-10">
