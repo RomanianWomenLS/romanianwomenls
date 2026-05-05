@@ -18,29 +18,19 @@ const Contact = () => {
               Fie că ești interesată să devii membră, să colaborezi cu noi sau pur și simplu să afli mai multe despre rețeaua noastră, ne-ar face plăcere să te cunoaștem.
             </p>
 
-            {/* <div className="space-y-4">
+            <div className="space-y-4 mb-8">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                   <Mail className="w-5 h-5 text-accent-foreground" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Scrie-ne la </p>
-                  <a href="mailto:contact@rwils.ch" className="text-foreground hover:text-primary transition-colors">
-                    contact@rwils.ch
+                  <p className="text-sm text-muted-foreground">Scrie-ne la</p>
+                  <a href="mailto:info@romanceinlifesciences.ch" className="text-foreground hover:text-primary transition-colors">
+                    info@romanceinlifesciences.ch
                   </a>
                 </div>
               </div>
-
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
-                  <MapPin className="w-5 h-5 text-accent-foreground" />
-                </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">Ne găsești în</p>
-                  <p className="text-foreground">Zürich, Switzerland</p>
-                </div>
-              </div>
-            </div> */}
+            </div>
 
             <p className="text-muted-foreground mb-6">
               Completează formularul și te vom contacta în cel mai scurt timp.
