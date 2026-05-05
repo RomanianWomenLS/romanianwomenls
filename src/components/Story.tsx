@@ -34,7 +34,7 @@ const Story = () => {
           {/* Text Side */}
           <div>
             <span className="text-sm font-medium text-primary uppercase tracking-wider">
-              Povestea Noastră
+              Cum a început
             </span>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
               Uneori, comunitățile se nasc dintr-o nevoie clară. Alteori, dintr-o conversație care refuză să se termine.
@@ -42,17 +42,16 @@ const Story = () => {
             
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Andreea Loredana Crețu și Andreea Stănescu s-au cunoscut în Zürich, într-o întâlnire programată inițial pentru 30 de minute. 
-                Doar că discuția a continuat aproape două ore. 
-                Nu pentru că ar fi fost planificat așa, ci pentru că subiectele curgeau natural: cariere în life sciences, viața profesională în Elveția, provocările și oportunitățile pentru femeile românce, și mai ales — câte femei extraordinare românce cunosc fiecare dintre ele în acest domeniu.
+                Totul a pornit în Zürich, de la o întâlnire programată pentru 30 de minute între Andreea Loredana Crețu și Andreea Stănescu, care s-a transformat într-o discuție de aproape două ore. Subiectele au curs natural: cariere în life sciences, viața profesională în Elveția, provocările și oportunitățile pentru femeile românce și, mai ales, câte femei extraordinare românce cunoaște fiecare în acest domeniu.
               </p>
               <p>
-                Ce a urmat a fost o masă de prânz aparent casual, care s-a transformat rapid într-o conversație despre sens, impact și responsabilitatea de a crea ceva mai mare decât ele. 
-                Amândouă aveau aceeași senzație: de-a lungul anilor întâlniseră românce remarcabile în cercetare, industrie, antreprenoriat și consultanță, dar aceste întâlniri se întâmplau fragmentat, întâmplător, fără un spațiu comun care să le aducă împreună.
+                A urmat un prânz aparent casual, care a deschis o conversație mai profundă despre sens, impact și responsabilitatea de a crea ceva mai mare. De-a lungul anilor, amândouă întâlniseră românce remarcabile în cercetare, industrie, antreprenoriat și consultanță, însă aceste conexiuni apăreau fragmentat, fără un spațiu comun care să le aducă împreună.
               </p>
               <p>
-                Din această energie a apărut o misiune clară: să creeze un loc unde româncele din life sciences din Elveția se pot conecta autentic, pot împărtăși experiențe, pot colabora și se pot sprijini reciproc.
-                Așa s-a născut Românce in Life Sciences — nu ca un proiect formal, ci ca o comunitate construită pe încredere, curiozitate și dorința de a crește împreună.
+                Din această energie a prins contur ideea unei comunități: un loc în care româncele din life sciences din Elveția să se poată conecta autentic, să împărtășească experiențe, să colaboreze și să se sprijine reciproc.
+              </p>
+              <p>
+                Astăzi, această viziune continuă să crească prin Românce in Life Sciences, construită pe încredere, curiozitate și dorința de a evolua împreună.
               </p>
             </div>
 
