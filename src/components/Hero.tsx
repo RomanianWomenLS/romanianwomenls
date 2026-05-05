@@ -15,7 +15,7 @@ const Hero = () => {
           className="w-full h-full object-cover object-[42%_center] md:object-center"
         />
         {/* Light cream wash keeps the DNA and mountains visible while still blending into the next section */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/45 to-background/75" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/65 to-background/85" />
       </div>
 
       {/* Content */}
