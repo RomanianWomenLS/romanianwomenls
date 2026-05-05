@@ -30,7 +30,7 @@ const Hero = () => {
             <span className="text-primary">Life Sciences</span> Switzerland
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
+          <p className="text-lg md:text-xl text-foreground font-medium max-w-2xl mx-auto mb-8">
             Românce in Life Sciences este o comunitate dedicată femeilor românce din domeniul life sciences din Elveția. Obiectivul nostru este să construim un spațiu de încredere, colaborare și vizibilitate, care să conecteze ecosistemele științifice, academice, industriale și antreprenoriale din România și Elveția.
           </p>
 
