@@ -69,7 +69,7 @@ const members = [
     name: "Alina Gologan",
     role: "Sr. Clinical Research Manager",
     institution: "MedTech",
-    quote: "„Lead me not into temptation, I know the way”. În afară de sarcasm, sunt o persoană ușor introvertă, ador cafeaua și călătoriile, activitățile outdoor împreună cu fetița mea, fac parte dintr-o familie bi-culturală, îmi plac oamenii ambițioși și discuțiile civilizate. Not a small-talk person.",
+    quote: "Lead me not into temptation, I know the way. În afară de sarcasm, sunt o persoană ușor introvertă, ador cafeaua și călătoriile, activitățile outdoor împreună cu fetița mea, fac parte dintr-o familie bi-culturală, îmi plac oamenii ambițioși și discuțiile civilizate. Not a small-talk person.",
     linkedin: "https://www.linkedin.com/in/alinagologan/",
   },
   {
