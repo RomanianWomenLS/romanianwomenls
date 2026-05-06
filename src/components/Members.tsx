@@ -65,6 +65,20 @@ const members = [
     quote: "",
     linkedin: "https://www.linkedin.com/in/oliviana-calin-eller-77a89717/",
   },
+  {
+    name: "Alina Gologan",
+    role: "Sr. Clinical Research Manager",
+    institution: "MedTech",
+    quote: "„Lead me not into temptation, I know the way”. În afară de sarcasm, sunt o persoană ușor introvertă, ador cafeaua și călătoriile, activitățile outdoor împreună cu fetița mea, fac parte dintr-o familie bi-culturală, îmi plac oamenii ambițioși și discuțiile civilizate. Not a small-talk person.",
+    linkedin: "https://www.linkedin.com/in/alinagologan/",
+  },
+  {
+    name: "Livia Diana Neacșu",
+    role: "Consilier / Terapeut",
+    institution: "Consiliere pt. persoanele diagnosticate cu infertilitate; Consiliere pt. persoanele indecise dacă vor copii",
+    quote: "Understanding cognitively what the problem is doesn't necessarily lead to healing. We get hurt in relationships, so we heal in relationships. — Gabor Maté",
+    linkedin: "https://www.linkedin.com/in/diana-l-neacsu/",
+  },
 ];
 
 const Members = () => {
