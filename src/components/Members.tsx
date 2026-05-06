@@ -76,7 +76,8 @@ const members = [
     name: "Livia Diana Neacșu",
     role: "Consilier / Terapeut",
     institution: "Consiliere pt. persoanele diagnosticate cu infertilitate; Consiliere pt. persoanele indecise dacă vor copii",
-    quote: "Understanding cognitively what the problem is doesn't necessarily lead to healing. We get hurt in relationships, so we heal in relationships. — Gabor Maté",
+    quote: "Understanding cognitively what the problem is doesn't necessarily lead to healing. We get hurt in relationships, so we heal in relationships.",
+    attribution: "Gabor Maté",
     linkedin: "https://www.linkedin.com/in/diana-l-neacsu/",
   },
 ];
@@ -131,7 +132,7 @@ const Members = () => {
                 {member.quote && (
                   <blockquote className="mt-4 pt-4 border-t border-border">
                     <p className="text-sm text-muted-foreground italic">
-                      "{member.quote}"
+                      "{member.quote}"{member.attribution && ` — ${member.attribution}`}
                     </p>
                   </blockquote>
                 )}
