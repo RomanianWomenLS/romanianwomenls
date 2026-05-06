@@ -18,7 +18,7 @@ const Story = () => {
                   <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                     <span className="font-serif text-4xl text-primary">🇨🇭</span>
                   </div>
-                  <div className="ro-tricolor h-1 w-24 mx-auto rounded-full mb-4 opacity-70" />
+                  <div className="bg-primary h-1 w-24 mx-auto rounded-full mb-4 opacity-70" />
                   <p className="font-serif text-2xl text-foreground font-semibold">
                     Est. 2025
                   </p>
@@ -27,8 +27,8 @@ const Story = () => {
               </div>
             </div>
             {/* Decorative Elements */}
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-ro-yellow/20 rounded-lg -z-10" />
-            <div className="absolute -top-4 -left-4 w-16 h-16 bg-ro-blue/15 rounded-lg -z-10" />
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent rounded-lg -z-10" />
+            <div className="absolute -top-4 -left-4 w-16 h-16 bg-primary/15 rounded-lg -z-10" />
           </div>
 
           {/* Text Side */}
@@ -57,15 +57,15 @@ const Story = () => {
 
             <div className="flex gap-8 mt-8 pt-8 border-t border-border">
               <div>
-                <p className="font-serif text-3xl font-bold text-ro-blue">50+</p>
+                <p className="font-serif text-3xl font-bold text-primary">50+</p>
                 <p className="text-sm text-muted-foreground">Membre active</p>
               </div>
               <div>
-                <p className="font-serif text-3xl font-bold text-ro-yellow">{getMonthsSinceOctober2025()}</p>
+                <p className="font-serif text-3xl font-bold text-primary">{getMonthsSinceOctober2025()}</p>
                 <p className="text-sm text-muted-foreground"> Luni de activitate</p>
               </div>
               <div>
-                <p className="font-serif text-3xl font-bold text-ro-red">4</p>
+                <p className="font-serif text-3xl font-bold text-primary">4</p>
                 <p className="text-sm text-muted-foreground">Orașe din Elveția</p>
               </div>
             </div>

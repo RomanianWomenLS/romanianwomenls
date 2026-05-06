@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer className="py-12 bg-foreground text-background relative">
-      <div className="absolute top-0 left-0 right-0 h-1 ro-tricolor opacity-80" />
+      
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
