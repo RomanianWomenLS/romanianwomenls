@@ -86,7 +86,7 @@ const Members = () => {
               className="group relative bg-background hover:shadow-lg transition-all duration-300 border-border hover:border-primary/30"
             >
               {member.badge && (
-                <div className="absolute -top-3 -right-2 z-10 rotate-2 transition-transform duration-300 group-hover:rotate-0">
+                <div className="absolute -top-3 -right-2 z-10">
                   <div className="bg-primary text-primary-foreground text-xs font-semibold tracking-wide uppercase px-3 py-1.5 rounded-md shadow-lg border border-primary-foreground/10">
                     {member.badge}
                   </div>
