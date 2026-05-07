@@ -8,6 +8,7 @@ const members = [
     institution: "University of Zürich",
     quote: "Această comunitate există pentru că există o nevoie reală. Când femei românce aleg să se conecteze, se creează nu doar apartenență, ci și potențial de impact.",
     linkedin: "https://www.linkedin.com/in/alcretu/",
+    badge: "Founder & Operational Lead",
   },
   {
     name: "Andreea Stănescu",
@@ -82,8 +83,15 @@ const Members = () => {
           {members.map((member, index) => (
             <Card
               key={index}
-              className="group bg-background hover:shadow-lg transition-all duration-300 border-border hover:border-primary/30"
+              className="group relative bg-background hover:shadow-lg transition-all duration-300 border-border hover:border-primary/30"
             >
+              {member.badge && (
+                <div className="absolute -top-3 -right-2 z-10 rotate-2 transition-transform duration-300 group-hover:rotate-0">
+                  <div className="bg-primary text-primary-foreground text-xs font-semibold tracking-wide uppercase px-3 py-1.5 rounded-md shadow-lg border border-primary-foreground/10">
+                    {member.badge}
+                  </div>
+                </div>
+              )}
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="flex-1 min-w-0">
