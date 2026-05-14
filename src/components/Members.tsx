@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Linkedin } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const members = [
   {
@@ -64,18 +65,19 @@ const members = [
 ];
 
 const Members = () => {
+  const { t } = useLanguage();
   return (
     <section id="members" className="py-24 bg-card">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-sm font-medium text-primary uppercase tracking-wider">
-            Membrele noastre
+            {t("members.tag")}
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-            Cunoaște comunitatea noastră
+            {t("members.title")}
           </h2>
           <p className="text-muted-foreground text-lg">
-            Membrele noastre activează în roluri diverse în cadrul ecosistemului life sciences din Elveția, de la universități și institute de cercetare de top la companii farmaceutice, biotech și organizații conexe.
+            {t("members.intro")}
           </p>
         </div>
 
@@ -131,7 +133,7 @@ const Members = () => {
 
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
-            Și multe alte profesioniste talentate din domeniul life sciences din întreaga Elveție…
+            {t("members.more")}
           </p>
         </div>
       </div>

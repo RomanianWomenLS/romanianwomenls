@@ -1,42 +1,26 @@
 import { Users, Target, Heart, Sparkles } from "lucide-react";
-
-const features = [
-  {
-    icon: Users,
-    title: "Comunitate profesionala",
-    description: "O retea de sprijin a femeilor românce care studiaza si lucreaza in domeniul life sciences in Elvetia.",
-  },
-  {
-    icon: Target,
-    title: "Dezvoltare profesionala",
-    description: "Mentorat, ateliere si resurse dedicate evolutiei carierei tale in life sciences.",
-  },
-  {
-    icon: Heart,
-    title: "Conexiune culturala",
-    description: "Ne onoram identitatea romaneasca, fiind in acelasi timp parte activa a ecosistemului elvetian de life sciences.",
-  },
-  {
-    icon: Sparkles,
-    title: "Colaborare si inovatie",
-    description: "Incurajam colaborari interdisciplinare si contributii relevante la cercetare, inovatie si antreprenoriat in life sciences.",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const About = () => {
+  const { t } = useLanguage();
+  const features = [
+    { icon: Users, title: t("about.f1.title"), description: t("about.f1.desc") },
+    { icon: Target, title: t("about.f2.title"), description: t("about.f2.desc") },
+    { icon: Heart, title: t("about.f3.title"), description: t("about.f3.desc") },
+    { icon: Sparkles, title: t("about.f4.title"), description: t("about.f4.desc") },
+  ];
+
   return (
     <section id="about" className="py-24 bg-card">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-sm font-medium text-primary uppercase tracking-wider">
-            Despre noi
+            {t("about.tag")}
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-            Cine suntem
+            {t("about.title")}
           </h2>
-          <p className="text-muted-foreground text-lg">
-          Suntem o comunitate de femei românce unite de interesul pentru life sciences, care contribuie din roluri diverse la ecosistemul elvețian — de la cercetare și industrie la antreprenoriat, consultanță, drept și finanțe.
-          </p>
+          <p className="text-muted-foreground text-lg">{t("about.intro")}</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
