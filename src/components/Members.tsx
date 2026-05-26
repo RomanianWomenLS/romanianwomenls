@@ -58,8 +58,7 @@ const members = [
     name: "Livia Diana Neacșu",
     role: "Consilier / Terapeut",
     institution: "Consiliere pt. persoanele diagnosticate cu infertilitate; Consiliere pt. persoanele indecise dacă vor copii",
-    quote: "Understanding cognitively what the problem is doesn't necessarily lead to healing. We get hurt in relationships, so we heal in relationships.",
-    attribution: "Gabor Maté",
+    quote: "In a world full of people who seem to know everything, passionately, based on little (often slanted) information, where certainty is often mistaken for power, what a relief it is to be in the company of someone confident enough to stay unsure; that is, perpetually curious.",
     linkedin: "https://www.linkedin.com/in/diana-l-neacsu/",
   },
 ];
