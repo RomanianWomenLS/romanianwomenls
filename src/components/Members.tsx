@@ -121,7 +121,7 @@ const Members = () => {
                 {member.quote && (
                   <blockquote className="mt-4 pt-4 border-t border-border">
                     <p className="text-sm text-muted-foreground italic">
-                      "{member.quote}"{member.attribution && ` — ${member.attribution}`}
+                      "{member.quote}"
                     </p>
                   </blockquote>
                 )}
