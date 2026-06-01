@@ -61,6 +61,13 @@ const members = [
     quote: "In a world full of people who seem to know everything, passionately, based on little (often slanted) information, where certainty is often mistaken for power, what a relief it is to be in the company of someone confident enough to stay unsure; that is, perpetually curious.",
     linkedin: "https://www.linkedin.com/in/diana-l-neacsu/",
   },
+  {
+    name: "Cîrjan Ana-Maria",
+    role: "Antreprenor",
+    institution: "",
+    quote: "Nu merge pe unde te duce drumul, mergi pe unde nu există un drum și lasă o urmă.",
+    linkedin: "",
+  },
 ];
 
 const Members = () => {
