@@ -117,6 +117,21 @@ const dict: Dict = {
   "contact.formCta": { ro: "Deschide formularul", en: "Open the form" },
   "contact.followUs": { ro: "Urmărește-ne pe Linkedin", en: "Follow us on LinkedIn" },
 
+  // Join
+  "join.tag": { ro: "Alătură-te", en: "Join Us" },
+  "join.title": { ro: "Cum devii membră", en: "How to Become a Member" },
+  "join.intro": { ro: "Patru pași simpli pentru a face parte din comunitatea RWILS.", en: "Four simple steps to become part of the RWILS community." },
+  "join.step1.title": { ro: "Completează formularul", en: "Fill Out the Form" },
+  "join.step1.desc": { ro: "Trimite cererea de înscriere prin formularul nostru online.", en: "Submit your membership request through our online form." },
+  "join.step2.title": { ro: "Așteaptă emailul de confirmare", en: "Wait for Confirmation" },
+  "join.step2.desc": { ro: "Vei primi un email de la hello@romanianwomenls.com. Verifică și folderul de spam.", en: "You will receive an email from hello@romanianwomenls.com. Please check your spam folder." },
+  "join.step3.title": { ro: "Rămâi la curent", en: "Stay in the Loop" },
+  "join.step3.desc": { ro: "Primești ultimele actualizări, oportunități și noutăți ale comunității.", en: "Get the latest updates, opportunities and community news." },
+  "join.step4.title": { ro: "Fii membră activă", en: "Become an Active Member" },
+  "join.step4.desc": { ro: "Alătură-te comunității noastre WhatsApp, participă la evenimente și interacționează pe pagina de LinkedIn.", en: "Join our WhatsApp community, attend events and engage on our LinkedIn page." },
+  "join.cta": { ro: "Devino membră", en: "Become a Member" },
+  "join.ctaNote": { ro: "Durează mai puțin de 2 minute.", en: "Takes less than 2 minutes." },
+
   // Footer
   "footer.tagline": {
     ro: "Conectăm femei românce din domeniul life sciences și sprijinim colaborarea, creșterea profesională și impactul în ecosistemul elvețian.",
