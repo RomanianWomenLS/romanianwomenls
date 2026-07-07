@@ -35,8 +35,8 @@ const Hero = () => {
 
           <div className="flex justify-center">
             <Button size="lg" className="font-medium" asChild>
-              <a href="https://forms.gle/p7osfEhshFFtJHcY8" target="_blank" rel="noopener noreferrer">
-                {t("hero.cta")}
+              <a href="#join">
+                {t("join.title")}
               </a>
             </Button>
           </div>
