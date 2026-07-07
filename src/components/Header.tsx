@@ -83,8 +83,8 @@ const Header = () => {
           <div className="hidden md:flex items-center gap-3">
             <LangToggle />
             <Button size="sm" asChild>
-              <a href="https://forms.gle/p7osfEhshFFtJHcY8" target="_blank" rel="noopener noreferrer">
-                {t("nav.join")}
+              <a href="#join">
+                {t("join.title")}
               </a>
             </Button>
           </div>
@@ -127,8 +127,8 @@ const Header = () => {
                 {t("nav.contact")}
               </a>
               <Button size="sm" className="w-fit" asChild>
-                <a href="https://forms.gle/p7osfEhshFFtJHcY8" target="_blank" rel="noopener noreferrer">
-                  {t("nav.join")}
+                <a href="#join" onClick={() => setIsMenuOpen(false)}>
+                  {t("join.title")}
                 </a>
               </Button>
             </div>
