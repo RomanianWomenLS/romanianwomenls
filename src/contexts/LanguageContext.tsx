@@ -127,6 +127,8 @@ const dict: Dict = {
   "join.step2.desc": { ro: "Vei primi un email de la hello@romanianwomenls.com. Verifică și folderul de spam.", en: "You will receive an email from hello@romanianwomenls.com. Please check your spam folder." },
   "join.step3.title": { ro: "Rămâi la curent și fii membră activă", en: "Stay in the Loop & Become Active" },
   "join.step3.desc": { ro: "Primești ultimele actualizări și noutăți, iar apoi te poți alătura comunității noastre WhatsApp, participa la evenimente și interacționa pe pagina de LinkedIn.", en: "Get the latest updates and news, then join our WhatsApp community, attend events and engage on our LinkedIn page." },
+  "join.cta": { ro: "Devino membră", en: "Become a Member" },
+  "join.ctaNote": { ro: "Durează mai puțin de 2 minute.", en: "Takes less than 2 minutes." },
 
   // Footer
   "footer.tagline": {
