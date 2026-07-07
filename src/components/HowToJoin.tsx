@@ -1,12 +1,11 @@
-import { ClipboardCheck, Mail, Bell, MessageCircle } from "lucide-react";
+import { ClipboardCheck, Mail, Users } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
 
 const steps = [
   { icon: ClipboardCheck, key: "join.step1" },
   { icon: Mail, key: "join.step2" },
-  { icon: Bell, key: "join.step3" },
-  { icon: MessageCircle, key: "join.step4" },
+  { icon: Users, key: "join.step3" },
 ] as const;
 
 const HowToJoin = () => {
@@ -29,9 +28,9 @@ const HowToJoin = () => {
 
         <div className="relative">
           {/* connecting line - desktop only */}
-          <div className="hidden md:block absolute top-12 left-[calc(12.5%+24px)] right-[calc(12.5%+24px)] h-0.5 bg-border" />
+          <div className="hidden md:block absolute top-12 left-[16.67%] right-[16.67%] h-0.5 bg-border" />
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {steps.map((step, index) => {
               const Icon = step.icon;
               return (
