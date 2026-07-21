@@ -68,6 +68,13 @@ const members = [
     quote: "Nu merge pe unde te duce drumul, mergi pe unde nu există un drum și lasă o urmă.",
     linkedin: "",
   },
+  {
+    name: "Alexandra Constantinescu",
+    role: "Expert Research Associate @ Molecular Partners AG",
+    institution: "",
+    quote: "Every experiment is a step toward understanding life",
+    linkedin: "",
+  },
 ];
 
 const Members = () => {
