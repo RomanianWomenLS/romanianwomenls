@@ -74,7 +74,7 @@ const dict: Dict = {
     ro: "Astăzi, această viziune continuă să crească prin Românce in Life Sciences, construită pe încredere, curiozitate și dorința de a evolua împreună.",
     en: "Today, this vision keeps growing through Romanian Women in Life Sciences, built on trust, curiosity and the desire to grow together.",
   },
-  "story.stat1": { ro: "Membre active", en: "Active members" },
+  "story.stat1": { ro: "Membre înregistrate", en: "Registered members" },
   "story.stat2": { ro: "Luni de activitate", en: "Months active" },
   "story.stat3": { ro: "Orașe din Elveția", en: "Swiss cities" },
   "story.est": { ro: "Înființat 2025", en: "Est. 2025" },
