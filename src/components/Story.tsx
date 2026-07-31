@@ -49,7 +49,7 @@ const Story = () => {
 
             <div className="flex gap-8 mt-8 pt-8 border-t border-border">
               <div>
-                <p className="font-serif text-3xl font-bold text-primary">50+</p>
+                <p className="font-serif text-3xl font-bold text-primary">65+</p>
                 <p className="text-sm text-muted-foreground">{t("story.stat1")}</p>
               </div>
               <div>
