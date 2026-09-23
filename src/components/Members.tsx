@@ -16,7 +16,7 @@ const members = [
     role: "PhD Graduate in RNA Biology",
     institution: "",
     quote: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/anamaria-buzoianu",
     badge: "Partnerships Champion",
   },
   {
@@ -24,7 +24,7 @@ const members = [
     role: "Psychologist at Soma Zentrum Zürich",
     institution: "",
     quote: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/andreea-vasiliu-somazentrum",
     badge: "Events Champion",
   },
   {
@@ -32,7 +32,7 @@ const members = [
     role: "Program Manager at University of Zurich",
     institution: "",
     quote: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/mihaela-falub-aa99133b",
     badge: "Community Champion",
   },
   {
